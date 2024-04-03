@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+html{
+    font-family: "Bebas Neue", sans-serif;
+
+}
+header{
+    color: blanchedalmond;
+    text-align: left;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.199);
+}
+header h1{
+    font-size:max(2vw, 20px);
+    letter-spacing: 10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(23, 10, 0, 0.623);
+}
+header ul {
+    padding-top: 30px;
+    font-size: max(1vw,10px);
+    letter-spacing: 3px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    text-align: right;
+    margin: auto;
+}
+header ul a{  
+    text-decoration: none; 
+    color: blanchedalmond;
+    transform: ease-in;
+    position: relative;
+    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color: rgba(23, 10, 0, 0.411);
+}
+header ul a:before{
+   content:'';
+   transform: all ease;
+   position: absolute;
+   background-color: rgba(109, 49, 3, 0.692);
+   height:https: 2px;
+   bottom: 0px;
+}
+header ul a:hover:before{
+    width: 100%;
+}
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.144),rgba(27, 27, 27, 0.678)),url("https://github.com/GabrielFariasL/project-academ/blob/main/BGAcad2.jpg?raw=true");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: blanchedalmond;
+}
+main h2{
+    font-size: min(60px, 10vw);
+    margin-top: 10%;
+}
+main p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+main a{
+    text-decoration: none;
+    color:rgba(66, 29, 1, 0.651);
+    padding: 15px;
+    margin: 20px;
+    border-radius: 25px;
+    border-width: 1px;
+    border-color: rgba(102, 46, 3, 0.795);
+    border-style: solid;
+    font-size: clamp(10px,20px,40px);
+    background-color: blanchedalmond;
+}
+main a:hover{
+    border-color:  rgba(102, 46, 3, 0.795);
+    border-width: 3px;
+    border-style: solid;  
+}
+.aula{
+    position: relative;
+    background-color: white;
+    color: black;
+    margin: 20%;
+    padding: 20px;
+}
+.aula h1{
+    font-size:max(4vw, 20px);
+}
+.aula h2{
+    font-size:max(2vw, 20px);
+    text-align: left;
+}
+.aula img{
+    width:max(200px,30vw);
+}
+footer{
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    color: blanchedalmond;
+    background-color: rgba(49, 43, 38, 0.356);
+    
+}
