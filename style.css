@@ -107,7 +107,8 @@ main a:hover{
     text-align: left;
 }
 .aula img{
-    width:max(200px,30vw);
+    width:max(200px,25vw);
+    max
 }
 footer{
     bottom: 0;
